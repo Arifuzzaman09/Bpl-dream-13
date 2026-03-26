@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Virat Kohli",
+    "country": "India",
+    "type": "Top Order Batsman",
+    "rating": 95,
+    "batingstyle": "Right-hand bat",
+    "bollingstyle": "Right-arm medium",
+    "price": 1200000,
+    "img": "https://i.ibb.co.com/wF6VJv4f/images.webp"
+  },
+  {
+    "name": "Babar Azam",
+    "country": "Pakistan",
+    "type": "Top Order Batsman",
+    "rating": 93,
+    "batingstyle": "Right-hand bat",
+    "bollingstyle": "Right-arm offbreak",
+    "price": 1100000,
+    "img": "https://i.ibb.co.com/wF6VJv4f/images.webp"
+  },
+  {
+    "name": "Joe Root",
+    "country": "England",
+    "type": "Middle Order Batsman",
+    "rating": 92,
+    "batingstyle": "Right-hand bat",
+    "bollingstyle": "Right-arm offbreak",
+    "price": 1050000,
+    "img": "https://i.ibb.co.com/wF6VJv4f/images.webp"
+  },
+  {
+    "name": "Kane Williamson",
+    "country": "New Zealand",
+    "type": "Top Order Batsman",
+    "rating": 91,
+    "batingstyle": "Right-hand bat",
+    "bollingstyle": "Right-arm offbreak",
+    "price": 1000000,
+    "img":"https://i.ibb.co.com/wF6VJv4f/images.webp"
+  },
+  {
+    "name": "Steve Smith",
+    "country": "Australia",
+    "type": "Top Order Batsman",
+    "rating": 94,
+    "batingstyle": "Right-hand bat",
+    "bollingstyle": "Right-arm legbreak",
+    "price": 1150000,
+    "img": "https://i.ibb.co.com/wF6VJv4f/images.webp"
+  },
+  {
+    "name": "Rohit Sharma",
+    "country": "India",
+    "type": "Opening Batsman",
+    "rating": 90,
+    "batingstyle": "Right-hand bat",
+    "bollingstyle": "Right-arm offbreak",
+    "price": 1080000,
+    "img": "https://i.ibb.co.com/wF6VJv4f/images.webp"
+  },
+  {
+    "name": "David Warner",
+    "country": "Australia",
+    "type": "Opening Batsman",
+    "rating": 89,
+    "batingstyle": "Left-hand bat",
+    "bollingstyle": "Right-arm legbreak",
+    "price": 980000,
+    "img": "https://i.ibb.co.com/wF6VJv4f/images.webp"
+  },
+  {
+    "name": "Shakib Al Hasan",
+    "country": "Bangladesh",
+    "type": "All-rounder",
+    "rating": 88,
+    "batingstyle": "Left-hand bat",
+    "bollingstyle": "Slow left-arm orthodox",
+    "price": 950000,
+    "img": "https://i.ibb.co.com/wF6VJv4f/images.webp"
+  }
+]
