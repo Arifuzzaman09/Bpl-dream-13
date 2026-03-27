@@ -1,9 +1,24 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-const Card = ({players}) => {
+const Card = ({ players, setCoin,coin }) => {
+
+
     return (
-       <div className='grid grid-cols-1 md:grid-cols-3 gap-2'>
+        <div className='grid grid-cols-1 md:grid-cols-3 gap-2'>
             {players.map(player => {
+                const [isSelected, setIsSelected] = useState(false)
+                const handleChoosePlayer = () => {
+                    let newCoin = coin - player.price
+                    if(newCoin >= 0){
+                        setCoin(coin - player.price)
+                    }else{
+                        alert("Not enough money to purchase")
+                        return;
+                    }
+                    alert(`${player.name} is Selected`)
+                    setIsSelected(true); 
+                }
+                console.log(player.price)
                 return <div className="card bg-base-100 w-96 shadow-sm">
                     <figure>
                         <img
@@ -26,7 +41,9 @@ const Card = ({players}) => {
 
                         <div className="card-actions justify-end">
                             <p className='font-bold'>Pricing: $ {player.price}</p>
-                            <button className="btn">Choose player</button>
+                            <button
+                                className="btn" onClick={handleChoosePlayer} disabled={isSelected ? true : false}>
+                                {isSelected === true ? "Selected" : "Choose player"}</button>
                         </div>
                     </div>
                 </div>

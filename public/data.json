@@ -6,7 +6,7 @@
     "rating": 95,
     "batingstyle": "Right-hand bat",
     "bollingstyle": "Right-arm medium",
-    "price": 1200000,
+    "price": 500,
     "img": "https://i.ibb.co.com/wF6VJv4f/images.webp"
   },
   {
@@ -16,7 +16,7 @@
     "rating": 93,
     "batingstyle": "Right-hand bat",
     "bollingstyle": "Right-arm offbreak",
-    "price": 1100000,
+    "price": 1200,
     "img": "https://i.ibb.co.com/wF6VJv4f/images.webp"
   },
   {
@@ -26,7 +26,7 @@
     "rating": 92,
     "batingstyle": "Right-hand bat",
     "bollingstyle": "Right-arm offbreak",
-    "price": 1050000,
+    "price": 2000,
     "img": "https://i.ibb.co.com/wF6VJv4f/images.webp"
   },
   {
@@ -36,7 +36,7 @@
     "rating": 91,
     "batingstyle": "Right-hand bat",
     "bollingstyle": "Right-arm offbreak",
-    "price": 1000000,
+    "price": 300,
     "img":"https://i.ibb.co.com/wF6VJv4f/images.webp"
   },
   {
@@ -46,7 +46,7 @@
     "rating": 94,
     "batingstyle": "Right-hand bat",
     "bollingstyle": "Right-arm legbreak",
-    "price": 1150000,
+    "price": 3000,
     "img": "https://i.ibb.co.com/wF6VJv4f/images.webp"
   },
   {
@@ -56,7 +56,7 @@
     "rating": 90,
     "batingstyle": "Right-hand bat",
     "bollingstyle": "Right-arm offbreak",
-    "price": 1080000,
+    "price": 5000,
     "img": "https://i.ibb.co.com/wF6VJv4f/images.webp"
   },
   {
@@ -66,7 +66,7 @@
     "rating": 89,
     "batingstyle": "Left-hand bat",
     "bollingstyle": "Right-arm legbreak",
-    "price": 980000,
+    "price": 6000,
     "img": "https://i.ibb.co.com/wF6VJv4f/images.webp"
   },
   {
@@ -76,7 +76,7 @@
     "rating": 88,
     "batingstyle": "Left-hand bat",
     "bollingstyle": "Slow left-arm orthodox",
-    "price": 950000,
+    "price": 9344000,
     "img": "https://i.ibb.co.com/wF6VJv4f/images.webp"
   }
 ]

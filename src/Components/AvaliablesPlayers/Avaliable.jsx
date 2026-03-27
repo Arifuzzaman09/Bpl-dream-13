@@ -1,10 +1,10 @@
 import React from 'react';
 import Card from '../Ui/card';
 
-const Avaliable = ({ players }) => {
+const Avaliable = ({ players,setCoin,coin }) => {
 
     return (
-        <Card players={players}></Card>
+        <Card players={players} setCoin={setCoin} coin={coin}></Card>
     );
 };
 
