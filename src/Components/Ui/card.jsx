@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 
-const Card = ({ players, setCoin,coin }) => {
+const Card = ({ players, setCoin,coin,selectedPlayers,setSelectedPlayers }) => {
 
 
     return (
         <div className='grid grid-cols-1 md:grid-cols-3 gap-2'>
-            {players.map(player => {
+            {players.map((player,ind) => {
                 const [isSelected, setIsSelected] = useState(false)
                 const handleChoosePlayer = () => {
                     let newCoin = coin - player.price
@@ -17,9 +17,10 @@ const Card = ({ players, setCoin,coin }) => {
                     }
                     alert(`${player.name} is Selected`)
                     setIsSelected(true); 
+                    setSelectedPlayers([selectedPlayers,players])
                 }
-                console.log(player.price)
-                return <div className="card bg-base-100 w-96 shadow-sm">
+             
+                return  <div key={ind} className="card bg-base-100 w-96 shadow-sm">
                     <figure>
                         <img
                             src={player.img}
